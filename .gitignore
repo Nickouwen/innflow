@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+
+# Local agent/session state
+.pi/
+
+# Output/build artifacts
+.output
+.vercel
+.netlify
+.wrangler
+.sst
+sst-env.d.ts
+**/.svelte-kit
+**/build
+**/dist
+coverage
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editors
+.DS_Store
+Thumbs.db
+.idea
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

@@ -1,0 +1,12 @@
+{
+	"name": "@innflow/ui",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"exports": {
+		"./button": "./src/button.svelte",
+		"./field": "./src/field.svelte",
+		"./input": "./src/input.svelte",
+		"./textarea": "./src/textarea.svelte"
+	}
+}

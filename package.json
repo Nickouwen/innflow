@@ -1,0 +1,16 @@
+{
+	"name": "innflow",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"scripts": {
+		"dev": "npm run dev -w @innflow/platform",
+		"build": "npm run build -w @innflow/platform",
+		"preview": "npm run preview -w @innflow/platform",
+		"check": "npm run check -w @innflow/platform"
+	}
+}
